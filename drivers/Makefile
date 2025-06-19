@@ -207,3 +207,4 @@ rmnet-$(CONFIG_QCOM_QMI_RMNET) += soc/qcom/qmi_rmnet.o
 rmnet-$(CONFIG_QCOM_QMI_DFC) += soc/qcom/dfc_qmi.o soc/qcom/dfc_qmap.o
 rmnet-$(CONFIG_QCOM_QMI_POWER_COLLAPSE) += soc/qcom/wda_qmi.o
 obj- += lindroid-drm/
+obj-$(CONFIG_DRM_LINDROID_EVDI) += lindroid-drm/
